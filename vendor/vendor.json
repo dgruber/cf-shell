@@ -1,0 +1,1216 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "9CI2q1uKdy0OeVdOC5Pc1+kGCGU=",
+			"path": "code.cloudfoundry.org/cli/actor/sharedaction",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "QiHGZyKGMCdghwd2ZX2c9ZPfE2U=",
+			"path": "code.cloudfoundry.org/cli/actor/v2action",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "TuT5E3HW2zcRTOvxHvzgwvrn0mg=",
+			"path": "code.cloudfoundry.org/cli/actor/v3action",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "FXjWQ+hfsgoLqNItFB1pdD6r39o=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Hr1uq5X1ksatTLjbE7rJ5qaEkrY=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller/ccv2",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "edp0NBhPWBXdSjGjIwa4OMQP0X0=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "h4mGFwbCcUp1mvPuh75By43bTYc=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "/a+Xx2PJqv0kjMTJKiryJAAeidU=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "sDWeNUgIAoH54L32Vr5zC/cpBe8=",
+			"path": "code.cloudfoundry.org/cli/api/cloudcontroller/wrapper",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "dMM3O/k1Wbys/VNRZWIemjAUYhc=",
+			"path": "code.cloudfoundry.org/cli/api/uaa",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "NqBTua2EG948cc3kCauU65NiB+g=",
+			"path": "code.cloudfoundry.org/cli/api/uaa/internal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ofLNSPmSd5Fhj3EL3Ie76jdETEs=",
+			"path": "code.cloudfoundry.org/cli/api/uaa/noaabridge",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "CYCuq57RTxLMWZpsfTvD9iOc5ss=",
+			"path": "code.cloudfoundry.org/cli/api/uaa/wrapper",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "/r8pftVJrTfr6L1z2Hr8zTT4UWk=",
+			"path": "code.cloudfoundry.org/cli/cf",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "qcBC8iTfzzjxA7gaiI/qugc3vlw=",
+			"path": "code.cloudfoundry.org/cli/cf/actors",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "4dlP+ZOvSNm9Gef3NucemSSVPP4=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/brokerbuilder",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "CBj/IC6sJOvzVRd55EO3kiAGE4E=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/planbuilder",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "5tFlw70BA6Ar8qeqw401Q2IvYms=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/plugininstaller",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "z7zy6iHlyjuR0yHiKkQnqdi5qFM=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/pluginrepo",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "U4eGpzE2JgS+PnYDsHw2EKJwbUI=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/servicebuilder",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "qkf02BEKvtkp8+erAWyivIiUDlY=",
+			"path": "code.cloudfoundry.org/cli/cf/actors/userprint",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "veELZyy+jQhAqFx7kalYx4JXF3g=",
+			"path": "code.cloudfoundry.org/cli/cf/api",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "RA/0jNxhS57A4n/MkJUOFF90Ze4=",
+			"path": "code.cloudfoundry.org/cli/cf/api/appevents",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "wwNLWwZtzU/6AztoJlCWPjLL8j4=",
+			"path": "code.cloudfoundry.org/cli/cf/api/appfiles",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "T3cd17E4Nw1K92SY+pSBcJ18E1o=",
+			"path": "code.cloudfoundry.org/cli/cf/api/appinstances",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Rqlug+GU/X96a/z1z3jW9qE23oI=",
+			"path": "code.cloudfoundry.org/cli/cf/api/applicationbits",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "bnb3VG2tZPHJ3jw99ZreB+O3bPs=",
+			"path": "code.cloudfoundry.org/cli/cf/api/applications",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "hwh+gkT11Rl3vWLRNpryFYi3cz8=",
+			"path": "code.cloudfoundry.org/cli/cf/api/authentication",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "3VjSc4YW0K/FaZso8TBK3SET2WU=",
+			"path": "code.cloudfoundry.org/cli/cf/api/copyapplicationsource",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "QtwXT2wT4UUwO0q0jtZPV4/ynPw=",
+			"path": "code.cloudfoundry.org/cli/cf/api/environmentvariablegroups",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "bOeYZ5bS8deMr9mTk0ohRNj1B+A=",
+			"path": "code.cloudfoundry.org/cli/cf/api/featureflags",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Y/cKcEeDpDYZDSOVbWqWoxLQlrs=",
+			"path": "code.cloudfoundry.org/cli/cf/api/logs",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "MuUkL0vAGjMI1zh0MGqYYfDhlsA=",
+			"path": "code.cloudfoundry.org/cli/cf/api/organizations",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "6TXHWxF56texEwNMrE+SCTc8wa8=",
+			"path": "code.cloudfoundry.org/cli/cf/api/password",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "cGY02sFGkUfuy5BBkyfYTUZ0Mfw=",
+			"path": "code.cloudfoundry.org/cli/cf/api/quotas",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "TLav8JrpfvGipO2QaQZUyBcg4co=",
+			"path": "code.cloudfoundry.org/cli/cf/api/resources",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "0UA28ytho1jj6P16GVUoUWIgDa4=",
+			"path": "code.cloudfoundry.org/cli/cf/api/securitygroups",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "cbOykNyoJ/1JFOX4TfHo2NCOlZY=",
+			"path": "code.cloudfoundry.org/cli/cf/api/securitygroups/defaults",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "lhfbwWYk0zUYSTcrz8lMOSJE9aw=",
+			"path": "code.cloudfoundry.org/cli/cf/api/securitygroups/defaults/running",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "XGIceEl2/4CCxVC6EhNketsxXxc=",
+			"path": "code.cloudfoundry.org/cli/cf/api/securitygroups/defaults/staging",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "LgGiN4H/BF54w7gXmEjlVQARf28=",
+			"path": "code.cloudfoundry.org/cli/cf/api/securitygroups/spaces",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "quER7HMpBCPAE7iFfRPWqPYf+Jw=",
+			"path": "code.cloudfoundry.org/cli/cf/api/spacequotas",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "SQGco+TXsq180dzLcWnrmBO5M8I=",
+			"path": "code.cloudfoundry.org/cli/cf/api/spaces",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "B2chhi240EZbYhnsBScCVNpGh6Y=",
+			"path": "code.cloudfoundry.org/cli/cf/api/stacks",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "z18R/4/zkX80Z4s+66FQZgGFpfU=",
+			"path": "code.cloudfoundry.org/cli/cf/appfiles",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "7coPMT5iB4jLMDaDxX/QBU2bFAw=",
+			"path": "code.cloudfoundry.org/cli/cf/cmd",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "MpFYVwKJRt1xxkixzsVFwQunLmk=",
+			"path": "code.cloudfoundry.org/cli/cf/commandregistry",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "hJqV0+atIwXV0pcrv9eaQY3brwI=",
+			"path": "code.cloudfoundry.org/cli/cf/commands",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "LI4PLeqVg5+AGSnZqdgonKzrkew=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/application",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ebZ8TU2Xr3SgfsjRsFtEztvGfxM=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/buildpack",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Vk1rJlmSXl3xhn/hZmyboSrrLOc=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/domain",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "IIgLg4KhGAINv8mec5WJUIy47zo=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/environmentvariablegroup",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "XHJSPAgUZ/L7FstGUfEG+WUe684=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/featureflag",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "IDKjZNgLmMYT8OLmneqTJ0Z6uTw=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/organization",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "9ImBq9MtZtnwLsQkA8ZPaQzENpY=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/plugin",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "gYRqfGAzaJ35gPVA7Z2iIWt1lKA=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/pluginrepo",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "CbsObnTcCEH+QzsGkQfsPIhu25E=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/quota",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "2XtYeAHwe4MHvWI3fZ1pdRKGErg=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/route",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "6u9Xtnx1TqT7gLh9IP6NguVtw64=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/routergroups",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "2eVEi0ROSJxP5vv0viefMI/3BxU=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/securitygroup",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "w3Abd162j9kbHvmuc/VdQqH2iIA=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/service",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "BU9mdzVJ1zTtw5U9j0kCsDBAtbw=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/serviceaccess",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "RV9gLV3oqi3bgbv3MD6bW2W1kKc=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/serviceauthtoken",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "7H3U4st/W0HHABCo4JzeDwwxLZ0=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/servicebroker",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "rXZq0qlQY7wcBf+KnqHXvmbEvAY=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/servicekey",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "0823Rt5Ad0rwRXuSXyq1K6BsfPo=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/space",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Gh5YZx9NwsIjuSGFcaB5/i+pwe0=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/spacequota",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "cTL8T4R3CiUsYBphm138VH0S0nU=",
+			"path": "code.cloudfoundry.org/cli/cf/commands/user",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "0z2nJ3kXDuyx22M6kJQ8VPRc0QQ=",
+			"path": "code.cloudfoundry.org/cli/cf/commandsloader",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "LxIafsVpgGykbYLzabSSqF4ki+M=",
+			"path": "code.cloudfoundry.org/cli/cf/configuration",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "OpULU8KZk+kCJk4qAJuh6yTbcmU=",
+			"path": "code.cloudfoundry.org/cli/cf/configuration/confighelpers",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "bhBXKMtDOTPEM3VYvH93NFvrFpU=",
+			"path": "code.cloudfoundry.org/cli/cf/configuration/coreconfig",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "c4VbN5n9+80oxpUDjRv85Joqqxk=",
+			"path": "code.cloudfoundry.org/cli/cf/configuration/pluginconfig",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "xHznquQ16eU2heLQZhsnGq0cDO4=",
+			"path": "code.cloudfoundry.org/cli/cf/errors",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "JGG6laMHphHNxJH393IZ8DxWvYA=",
+			"path": "code.cloudfoundry.org/cli/cf/flagcontext",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "kOavLkDL9uwCGMn3XysgZ3Bk+Zk=",
+			"path": "code.cloudfoundry.org/cli/cf/flags",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "6L/4fhHPk91tyMAxTmNdV4napuc=",
+			"path": "code.cloudfoundry.org/cli/cf/formatters",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "z8Vbh7hh+9drQr4oONNkTgcaZxs=",
+			"path": "code.cloudfoundry.org/cli/cf/help",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ZlqCHt4+TmsBTUq2J7Cc9nFcsjM=",
+			"path": "code.cloudfoundry.org/cli/cf/i18n",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "5v4m9mrBZhRnmUawKWTOi8VbJTE=",
+			"path": "code.cloudfoundry.org/cli/cf/manifest",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "YlZagVSimu+JeAjjbSQ1LnZIv0A=",
+			"path": "code.cloudfoundry.org/cli/cf/models",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "BzCqJ0RrPCdZsnmHCRyZAra+rQ8=",
+			"path": "code.cloudfoundry.org/cli/cf/net",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "xlcv0vTDgvDllG5ZsTtsIu/FOTE=",
+			"path": "code.cloudfoundry.org/cli/cf/requirements",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "EgdMOfYQHwMlRXlWH+zzAiOulWw=",
+			"path": "code.cloudfoundry.org/cli/cf/resources",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ImBTCHZlMyc6N81wojl96SbncAs=",
+			"path": "code.cloudfoundry.org/cli/cf/ssh",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "srE6rX3KDYgbfo6J/DuXfxdg6SY=",
+			"path": "code.cloudfoundry.org/cli/cf/ssh/options",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "EtgEdm4ZN+bsgVFD+HJQnQ3hpYs=",
+			"path": "code.cloudfoundry.org/cli/cf/ssh/sigwinch",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "1ZQecVDqcxhOI/ur+OaeYmjPkjE=",
+			"path": "code.cloudfoundry.org/cli/cf/ssh/terminal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "OL0m093ETXkuDULvfK6V5qmaAYo=",
+			"path": "code.cloudfoundry.org/cli/cf/terminal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Fh0UVbrY55jTzwsCKPuoEZgxxlg=",
+			"path": "code.cloudfoundry.org/cli/cf/trace",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "hcCzt4o44NdJwPlFJKf62N7Ow0M=",
+			"path": "code.cloudfoundry.org/cli/cf/uihelpers",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ZJfFACna6hneWQaoaR8029qjBgg=",
+			"path": "code.cloudfoundry.org/cli/cf/v3/models",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "wXMz8rMVSOFBiYxyiBe58/RAZno=",
+			"path": "code.cloudfoundry.org/cli/cf/v3/repository",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "WdM8MPUllT7+97AlntGNKRZiks8=",
+			"path": "code.cloudfoundry.org/cli/command",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "COou6Zg4Zr89x2Ys4nlPeuzYf94=",
+			"path": "code.cloudfoundry.org/cli/command/common",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "1IxmsNwIUgOitV0wBqswXOshoE4=",
+			"path": "code.cloudfoundry.org/cli/command/common/internal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "j0MIdYUaafaaxf6OqCzqiV6eCaw=",
+			"path": "code.cloudfoundry.org/cli/command/flag",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "cPZvO/Lr4Z7KQCP6emFqb7aWsFM=",
+			"path": "code.cloudfoundry.org/cli/command/v2",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "Qv9pG9hSZYfLisWk0BtnXykQxe0=",
+			"path": "code.cloudfoundry.org/cli/command/v2/shared",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "kG4nS1g9s1sbIjtrPINscdg4dBQ=",
+			"path": "code.cloudfoundry.org/cli/command/v3",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "kUjVgUyZcxy03UfEDmNTwsnkWLs=",
+			"path": "code.cloudfoundry.org/cli/command/v3/shared",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ZZd6TCV9PVv2CCua0GYTG2jLUiI=",
+			"path": "code.cloudfoundry.org/cli/plugin",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "saaA1JjTTua8s4tG/6O/bAklttU=",
+			"path": "code.cloudfoundry.org/cli/plugin/models",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "9iH3ku9v8wNtCDRHAMcNhGB70qQ=",
+			"path": "code.cloudfoundry.org/cli/plugin/rpc",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "vjLswlBHG8PXdrYX5d+A5PtXlXM=",
+			"path": "code.cloudfoundry.org/cli/util",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "jkOQjzft+VFKeyEyE3Tg/qAyfss=",
+			"path": "code.cloudfoundry.org/cli/util/configv3",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "bvLrYRgiIA2tHgomeXD0ZpHDbf8=",
+			"path": "code.cloudfoundry.org/cli/util/downloader",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "iWb3+qSew+vufDCndr2wxt2Xang=",
+			"path": "code.cloudfoundry.org/cli/util/generic",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "R+b7BQL+mc6OSQA2UCxyatAX7RM=",
+			"path": "code.cloudfoundry.org/cli/util/glob",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "5KYrz7NcarqaXup7faORromIta8=",
+			"path": "code.cloudfoundry.org/cli/util/json",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "2xNltDzArbh8bTuKtNTA9xd+xCI=",
+			"path": "code.cloudfoundry.org/cli/util/sorting",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "sSps0ags0A/5ha9NHyGx8IxRLC0=",
+			"path": "code.cloudfoundry.org/cli/util/spellcheck",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "B8ljuoITlI/HVLTXfi1wj378JNg=",
+			"path": "code.cloudfoundry.org/cli/util/ui",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "yApWUI6O/lXhxvV+W00k4LBFDfY=",
+			"path": "code.cloudfoundry.org/cli/util/words",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "1b03E3Ait75tNWFIOsk+XwhGYTo=",
+			"path": "code.cloudfoundry.org/cli/util/words/generator",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "FMaw8oAYnjghR/qfYWCwq26Auvs=",
+			"path": "code.cloudfoundry.org/cli/version",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "s5z47B8aQJOjamSxKRtZOo4pWlo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/code.cloudfoundry.org/gofileutils/fileutils",
+			"path": "code.cloudfoundry.org/gofileutils/fileutils",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "490TPsecQDBx8BF0xZk5AedmPsE=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/Azure/go-ansiterm",
+			"path": "github.com/Azure/go-ansiterm",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "jBimnggjIiFUjaImNoJhSVLtdzw=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/Azure/go-ansiterm/winterm",
+			"path": "github.com/Azure/go-ansiterm/winterm",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "XChCbfxzebozt1MmfqQksFEaNkA=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/SermoDigital/jose",
+			"path": "github.com/SermoDigital/jose",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "u92C5yEz1FLBeoXp8jujn3tUNFI=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/SermoDigital/jose/crypto",
+			"path": "github.com/SermoDigital/jose/crypto",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "FJP5enLaw1JzZNu6Fen+eEKY7Lo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/SermoDigital/jose/jws",
+			"path": "github.com/SermoDigital/jose/jws",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "3gGGWQ3PcKHE+2cVlkJmIlBfBlw=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/SermoDigital/jose/jwt",
+			"path": "github.com/SermoDigital/jose/jwt",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "s58Gr84igCt68ig2iY5y/um4cXw=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/Sirupsen/logrus",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "NC+KbpkiMhiaFl8wnQXKSooZ7H0=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/blang/semver",
+			"path": "github.com/blang/semver",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "fu2L1vIrWHtnkyBytD4vSpmcFyE=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/bmizerany/pat",
+			"path": "github.com/bmizerany/pat",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "KQAt7/FN7jhROosuLFEWBSudC/c=",
+			"path": "github.com/c-bata/go-prompt",
+			"revision": "a8daf831aa4357c9e2be05aa51f04c66f7907394",
+			"revisionTime": "2017-08-18T00:55:22Z"
+		},
+		{
+			"checksumSHA1": "uGgysW6Z0EqkBn/9X/XvS076aXc=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry-incubator/cli-plugin-repo/web",
+			"path": "github.com/cloudfoundry-incubator/cli-plugin-repo/web",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "vfcIcpmaixbR/4tn12qkvOEuIQU=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/bytefmt",
+			"path": "github.com/cloudfoundry/bytefmt",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "zGqoH2JBQEV/tX0BaNwQduYjYe8=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/go-ccapi/v3/client",
+			"path": "github.com/cloudfoundry/go-ccapi/v3/client",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "RocdDJ5mnDBtHx3zAImTdHoEDaM=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/go-ccapi/v3/routing",
+			"path": "github.com/cloudfoundry/go-ccapi/v3/routing",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "+ydjJXkYvDbfIB/hqgLA5VhVUsk=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/noaa",
+			"path": "github.com/cloudfoundry/noaa",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "lm1NopAlpxV8fAPopC1MBUH+JUo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/noaa/consumer",
+			"path": "github.com/cloudfoundry/noaa/consumer",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "h1rUpiRmfBEPHwIeFM1+aVP7ln4=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/noaa/consumer/internal",
+			"path": "github.com/cloudfoundry/noaa/consumer/internal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ujnvXeQW5PxPPByaWYhZaWg+NDs=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/noaa/errors",
+			"path": "github.com/cloudfoundry/noaa/errors",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "zrot2hMlFSF2aRvcjuXMjGpzhT4=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/cloudfoundry/sonde-go/events",
+			"path": "github.com/cloudfoundry/sonde-go/events",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "3c8QRF/qLfKwPbRKijLWmYAmbV0=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/docker/docker/pkg/term",
+			"path": "github.com/docker/docker/pkg/term",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "EMjTiUTHNxqSsmdMB1V29hRvJbQ=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/docker/docker/pkg/term/windows",
+			"path": "github.com/docker/docker/pkg/term/windows",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "L8gzVN3b5zB7TkeimHrqqar4HsE=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/fatih/color",
+			"path": "github.com/fatih/color",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ISFaRZB0NU+yGw2zrrMxQfu09lg=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/gogo/protobuf/gogoproto",
+			"path": "github.com/gogo/protobuf/gogoproto",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "DGwBn5u86HUxjm5DBphOrGqB1xo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/gogo/protobuf/proto",
+			"path": "github.com/gogo/protobuf/proto",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "/4CSwqLFcBk4NuG0eMdlYeqXjV8=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"path": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "l5Js/pq4Nti2jU//RLjSyv+EtXo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/google/go-querystring/query",
+			"path": "github.com/google/go-querystring/query",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "I+Cn8TpQsSFL9TxEecp23gm+zOg=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/gorilla/websocket",
+			"path": "github.com/gorilla/websocket",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "G4VxfqV6YHBtBOZuLvCWBIbzMZc=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/jessevdk/go-flags",
+			"path": "github.com/jessevdk/go-flags",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "MrqRXuqj5suGXqcRUUwi+YA7PmE=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/mattn/go-colorable",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "uACx67qkmXALPy3f8TzUSS8mTPQ=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/mattn/go-isatty",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "6qqfQXR4hHYzmy6x6OqIKCp3fFg=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/mattn/go-runewidth",
+			"path": "github.com/mattn/go-runewidth",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "yr1io0ChTlyR3qsSw/iSpn7TGJA=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/nicksnyder/go-i18n/i18n",
+			"path": "github.com/nicksnyder/go-i18n/i18n",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "UW57eu+Se/KHPD+SoNJLIERYHZQ=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/nicksnyder/go-i18n/i18n/bundle",
+			"path": "github.com/nicksnyder/go-i18n/i18n/bundle",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "+XOg99I1zdmBRUb04ZswvzQ2WS0=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/nicksnyder/go-i18n/i18n/language",
+			"path": "github.com/nicksnyder/go-i18n/i18n/language",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "nhlpSPeAP6jMGAuLPM2xflAZTlo=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/nicksnyder/go-i18n/i18n/translation",
+			"path": "github.com/nicksnyder/go-i18n/i18n/translation",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "5CYrIFTTUD3pONFo8uEO21Ajz68=",
+			"path": "github.com/onsi/ginkgo",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "YpuDp4HzlSiuDjenwxBH8SrJUdQ=",
+			"path": "github.com/onsi/ginkgo/config",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "T1cZh3UWr4Hnx6fQYp+7KDNvxG4=",
+			"path": "github.com/onsi/ginkgo/internal/codelocation",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "qvz6/+otRkWa1OHaPMKap9D5Ge4=",
+			"path": "github.com/onsi/ginkgo/internal/containernode",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "882oWW4FC4Nrd8mrMptsDJSTDds=",
+			"path": "github.com/onsi/ginkgo/internal/failer",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "QRyuQm0kZZhoJSZIKQMNBobyHvc=",
+			"path": "github.com/onsi/ginkgo/internal/leafnodes",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "iGl+QVjDgV2/8VbzY5B5i4O3H10=",
+			"path": "github.com/onsi/ginkgo/internal/remote",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "bXl467puOFWqYtymMm9oz1FR7dM=",
+			"path": "github.com/onsi/ginkgo/internal/spec",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "KfcgmQ0ynI5Nl6qAmLSIFL4Yw1o=",
+			"path": "github.com/onsi/ginkgo/internal/specrunner",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "qHyV9V4XDctM1CYOplL703ZIqDg=",
+			"path": "github.com/onsi/ginkgo/internal/suite",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "TUBH2aNaARtAZ5vz51xMFRsOOo0=",
+			"path": "github.com/onsi/ginkgo/internal/testingtproxy",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "dpgqwFYT7NWSOG0Ah+r6kgMhrBg=",
+			"path": "github.com/onsi/ginkgo/internal/writer",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "JOMfdsky0xwygI2Sd2+iMQUoLIU=",
+			"path": "github.com/onsi/ginkgo/reporters",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "EOEv0WZ8ImDZ1D2+IsvmJSIyTdk=",
+			"path": "github.com/onsi/ginkgo/reporters/stenographer",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "QeB8m9WhRUiL0YKj3n5L0t4mLCg=",
+			"path": "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "s5EyiKpqSdkyyIUMb226mZc6/Uo=",
+			"path": "github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "x2C2TFYRF/+vpy7KN9Hkjh8VPsE=",
+			"path": "github.com/onsi/ginkgo/types",
+			"revision": "00054c0bb96fc880d4e0be1b90937fad438c5290",
+			"revisionTime": "2016-11-10T18:03:13Z"
+		},
+		{
+			"checksumSHA1": "GLT5GJfAoRSaN+hSTpiL0Sx/N80=",
+			"path": "github.com/onsi/gomega",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "5VvGGLon1NsOyryvwNnskWS7rOE=",
+			"path": "github.com/onsi/gomega/format",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "H4RBR9kcEWh2lECAzBaOTSvgUuA=",
+			"path": "github.com/onsi/gomega/internal/assertion",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "N7HhJzMN+STfzI315keM9SxFQAE=",
+			"path": "github.com/onsi/gomega/internal/asyncassertion",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "EsgeBqN2S5wj8aWvGsS162ZK7xI=",
+			"path": "github.com/onsi/gomega/internal/oraclematcher",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "G+KJsEQohAtPAHEbhHxRN0pffcA=",
+			"path": "github.com/onsi/gomega/internal/testingtsupport",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "D9T3kgRrvC73WET7MpBbRcYz2fQ=",
+			"path": "github.com/onsi/gomega/matchers",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "gWJfsDHiZTga1esEChd+MfpftN0=",
+			"path": "github.com/onsi/gomega/matchers/support/goraph/bipartitegraph",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "zjTC6ady0bJUwzTFAKtv63T7Fmg=",
+			"path": "github.com/onsi/gomega/matchers/support/goraph/edge",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "o2+IscLOPKOiovl2g0/igkD1R4Q=",
+			"path": "github.com/onsi/gomega/matchers/support/goraph/node",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "yEF1BYQPwS3neYFKiqNQReqnadY=",
+			"path": "github.com/onsi/gomega/matchers/support/goraph/util",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "zEuQ0PUlbqojtNwvu01Mn3DQCJM=",
+			"path": "github.com/onsi/gomega/types",
+			"revision": "f1f0f388b31eca4e2cbe7a6dd8a3a1dfddda5b1c",
+			"revisionTime": "2016-11-18T20:51:29Z"
+		},
+		{
+			"checksumSHA1": "L7dFEYzHkAatKpLgN5g0zvcuPwo=",
+			"path": "github.com/pkg/term/termios",
+			"revision": "b1f72af2d63057363398bec5873d16a98b453312",
+			"revisionTime": "2016-07-05T08:19:19Z"
+		},
+		{
+			"checksumSHA1": "71AAav2wU/A0ZsUbU9C54+UxHO4=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/sajari/fuzzy",
+			"path": "github.com/sajari/fuzzy",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "HQajcfiYI+IR3ih925yBhhJxhrU=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/tedsuo/rata",
+			"path": "github.com/tedsuo/rata",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "elz2qFrGUAUPKg70jY1dJdHejso=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/vito/go-interact/interact",
+			"path": "github.com/vito/go-interact/interact",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "hGIWSwpwWGJAuQmO+3zqxSAhQCc=",
+			"origin": "code.cloudfoundry.org/cli/vendor/github.com/vito/go-interact/interact/terminal",
+			"path": "github.com/vito/go-interact/interact/terminal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "fIomEOO5OaGA7g4TcQzDHLRK6MA=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/crypto/curve25519",
+			"path": "golang.org/x/crypto/curve25519",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "tYrWR36lCr2PjzpQkexHwcdmUi8=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/crypto/ed25519",
+			"path": "golang.org/x/crypto/ed25519",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "LXFcVx8I587SnWmKycSDEq9yvK8=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/crypto/ed25519/internal/edwards25519",
+			"path": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "5dMHy1gnftLX8Y4LWMWMI+AeT00=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/crypto/ssh",
+			"path": "golang.org/x/crypto/ssh",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "r0Iul36T/Z2hk1W+OCv7J4O0SBE=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/crypto/ssh/terminal",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "ksWiFNBSiaD8eZSMZ5teYak4MXI=",
+			"origin": "code.cloudfoundry.org/cli/vendor/golang.org/x/net/websocket",
+			"path": "golang.org/x/net/websocket",
+			"revision": "e046b5f4f968dbc9b05b6ea614ca77f25765247b",
+			"revisionTime": "2017-02-24T23:29:49Z"
+		},
+		{
+			"checksumSHA1": "KqecwXo3OO+p4N+E9RhlHvl9I+w=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "b699b7032584f0953262cb2788a0ca19bb494703",
+			"revisionTime": "2016-11-10T11:58:56Z"
+		},
+		{
+			"checksumSHA1": "12GqsW8PiRPnezDDy0v4brZrndM=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "a5b47d31c556af34a302ce5d659e6fea44d90de0",
+			"revisionTime": "2016-09-28T15:37:09Z"
+		}
+	],
+	"rootPath": "github.com/dgruber/cf-shell"
+}

@@ -1,0 +1,110 @@
+resources:
+ - name: cf-shell 
+   type: git
+   source:
+     uri: {{GIT_RELEASE_REPO}}
+     branch: master
+     private_key: {{GIT_RELEASE_PRIVATE_KEY}}
+
+ # - name: cf-shell-pre-release
+ #   type: git
+ #   source:
+ #     uri: {{GIT_RELEASE_REPO}}
+ #     branch: master
+ #     private_key: {{GIT_RELEASE_PRIVATE_KEY}}
+
+ - name: cf-shell-release
+   type: git
+   source:
+     uri: {{GIT_RELEASE_REPO}}
+     branch: master
+     private_key: {{GIT_RELEASE_PRIVATE_KEY}}
+
+ - name: version
+   type: semver
+   source:
+     region_name: eu-central-1
+     bucket: {{S3_BUCKET}}
+     key: {{S3_VERSION_FILE}}
+     access_key_id: {{S3_ACCESS_KEY_ID}}
+     secret_access_key: {{S3_SECRET_ACCESS_KEY}}
+     initial_version: 0.0.2
+
+# - name: releases
+#   type: s3
+#   source:
+#     region_name: eu-central-1
+#     bucket: {{S3_RELEASE_BUCKET}}
+#     access_key_id: {{S3_RELEASE_ACCESS_KEY_ID}}
+#     secret_access_key: {{S3_RELEASE_SECRET_ACCESS_KEY}}
+
+jobs:
+  - name: ginkgo-tests
+    plan:
+    - get: cf-shell
+      trigger: true
+    - task: ginkgo-test
+      file: cf-shell/ci/tasks/ginkgo-tests.yml
+      timeout: 5m
+
+  - name: linter
+    plan:
+    - get: cf-shell
+      trigger: true
+      passed: [ ginkgo-tests ]
+    - task: linter
+      file: cf-shell/ci/tasks/linter.yml
+
+  - name: xcompile
+    plan:
+    - get: cf-shell
+      trigger: true
+      passed: [ ginkgo-tests ]
+    - task: xcompile
+      file: cf-shell/ci/tasks/xcompile.yml 
+
+  - name: create-release 
+    plan:
+    - get: cf-shell
+      trigger: true
+      passed: [linter, xcompile]
+    - get: version
+      params: { bump: patch }
+    - task: create-release
+      file: cf-shell/ci/tasks/create-release.yml
+    - put: version
+      params: {file: version/version}
+    - put: cf-shell
+      params:
+        repository: cf-shell-new-version
+        tag: version/version
+
+  - name: manual-create-minor-release
+    plan:
+    - get: cf-shell-release
+      trigger: false
+    - get: version
+      params: { bump: minor }
+    - task: create-release-version
+      file: cf-shell-release/ci/tasks/create-release-version.yml
+    - put: version
+      params: {file: version/version}
+    - put: cf-shell-release
+      params:
+        repository: cf-shell-new-version
+        tag: version/version
+
+  - name: manual-create-major-release
+    plan:
+    - get: cf-shell-release
+      trigger: false
+    - get: version
+      params: { bump: major }
+    - task: create-release-version
+      file: cf-shell-release/ci/tasks/create-release-version.yml
+    - put: version
+      params: {file: version/version}
+    - put: cf-shell-release
+      params:
+        repository: cf-shell-new-version
+        tag: version/version

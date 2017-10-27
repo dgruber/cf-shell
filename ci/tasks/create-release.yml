@@ -1,0 +1,18 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: golang
+    tag: "latest"
+
+inputs:
+  - name: cf-shell
+  - name: version
+
+outputs:
+  - name: cf-shell-new-version
+
+run:
+  path: cf-shell/ci/scripts/create-release.sh
