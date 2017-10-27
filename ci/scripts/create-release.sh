@@ -18,7 +18,7 @@ popd
 git clone cf-shell cf-shell-new-version
 pushd cf-shell-new-version/builds
 cp -r $gosrc/cf-shell/builds/$version $version
-cp -r $gosrc/cf-shell/builds/current current
+cp -r $gosrc/cf-shell/builds/$version current
 git add $version/*
 git add current/*
 git commit -m "[ci skip] new version build $version"
