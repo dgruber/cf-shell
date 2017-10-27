@@ -2,7 +2,8 @@
 
 cf-shell is a simple plugin for the Cloud Foundry *cf* command line tool which 
 supports auto-completion of *cf* arguments. Its core functionality is based on
-_go-prompt_.
+_go-prompt_. It makes it easy exploring arguments and its options without 
+browsing through the help pages.
 
 ## Installation
 
